@@ -18,7 +18,7 @@ In practice, unlock\_time for can be leveraged for blockchain analysis. We have 
   - It should be noted that there is an extremely unusual distribution of low values: 
 ![](https://raw.githubusercontent.com/insight-decentralized-consensus-lab/monero_encrypted_unlock_time/master/images/low_locktimes.png)
   - Example: [bf800d30889423fafdf7cde841f1a61d3372667a0efc7c6e8784f220c0dcc3a8](https://docs.google.com/document/d/1VOEF3Ntb8yk3DXzwu7-xHQ6QGMz3KTKoGe0gHYB4E4g/edit)
-- **unlock\_time ~ 1,000,000+**
+- **unlock\_time ~1,000,000+**
   - Lock times less than 500,000,000 are interpreted as block heights
   - Example: [93df46c18742ff6fd0ba86076bd360b0a32cda4f670b9944c9f176d5c9783959](https://xmrchain.net/tx/93df46c18742ff6fd0ba86076bd360b0a32cda4f670b9944c9f176d5c9783959)
 - **unlock\_time ~1,400,000,000**
