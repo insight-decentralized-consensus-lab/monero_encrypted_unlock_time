@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/insight-decentralized-consensus-lab/monero_encrypted_unlock_time/master/images/dual_logos.png) 
 
-# Monero Encrypted unlock\_time field
+# Monero encrypted unlock\_time field
 
 ## Motivation:
 
