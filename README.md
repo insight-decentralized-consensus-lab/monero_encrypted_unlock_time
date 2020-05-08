@@ -39,6 +39,10 @@ This research will deliver a thorough analysis of encryption solutions and their
 
 It should be noted that Monero is not the only protocol exhibiting information leaks due to erratic use of unlock\_time field, and other privacy coins have even seen the unlock\_time field used for steganography ([see thread](https://twitter.com/f2pool_official/status/1246154346481381378)). To our knowledge, it is possible for Monero to become the first private cryptocurrency to solve this issue and implement encrypted lock times.
 
+Thanks to monero research lab contributor Sarang Noether we already have verification time data for 3-CLSAG and 3-Tryptich. This gives a good idea on how the verification time of monero transactions will scale with encrypted unlock times compared to the current transaction format. In general we see a non-trivial increase in verification time resulting in a decrease of anonymity set size performance by nearly a power of two (compare the series for CLSAG with 3-CLSAG, and Tryptich with 3-Tryptich respectively):
+
+![](https://usercontent.irccloud-cdn.com/file/dQXuFH2U/timing.png)
+
 ## Key deliverables &amp; features:
 
 - Detailed **system design** decisions (e.g. unlock\_time per output or per transaction?)
